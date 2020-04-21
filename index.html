@@ -5,6 +5,10 @@
 	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body><script>
+function pklogin() {
+	alert("Sorry, This feature is still not done")
+}
+
 function googlelogin() {
 alert("Sorry, This feature is still not done")
 }
@@ -20,7 +24,7 @@ alert("Invalid email or password, if you have not verified your account yet, ple
 
 <p><input name="passwd" placeholder="Password" size="24" type="password" /></p>
 
-<p><input class="niceButton" name="pkLogIn" type="button" value="Log in with Playskript" /></p>
+<p><input class="niceButton" name="pkLogIn" onclick="pklogin()" type="button" value="Log in with Playskript" /></p>
 
 <p><input class="niceButton" name="googleLogIn" onclick="googlelogin()" type="button" value="Log in with Google" /></p>
 </div>
