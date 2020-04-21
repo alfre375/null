@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Welcome to Null</title>
+	<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body><script>
+function googlelogin() {
+alert("Sorry, This feature is still not done")
+}
+
+function nulllogin() {
+alert("Invalid email or password, if you have not verified your account yet, please check your mail, and finish configuring your account!")
+}
+</script>
+<div class="loginBox">
+<p><input name="logIn" onclick="nulllogin()" type="button" value="Log in" /><input name="createAccount" type="button" value="Create an account" /></p>
+
+<p><input name="email" placeholder="Please enter your e-mail" size="24" type="email" /></p>
+
+<p><input name="passwd" placeholder="Password" size="24" type="password" /></p>
+
+<p><input class="niceButton" name="pkLogIn" type="button" value="Log in with Playskript" /></p>
+
+<p><input class="niceButton" name="googleLogIn" onclick="googlelogin()" type="button" value="Log in with Google" /></p>
+</div>
+</body>
+</html>

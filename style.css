@@ -1,0 +1,17 @@
+
+.niceButton{
+	border-radius:6pt;
+	border: 1px outset rgb(200,200,200);
+}
+
+.loginBox{
+	text-align: center;
+	
+	position:absolute;
+	width:100%;
+	top:35%;
+}
+
+body{
+	background:rgb(255,155,155)
+}
