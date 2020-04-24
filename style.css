@@ -12,6 +12,11 @@
 	top:35%;
 }
 
+.nullLI{
+	border-raidius:12pt;
+	border: 1px outset rgb(200,200,200);
+}
+
 body{
 	background:rgb(255,155,155)
 }
